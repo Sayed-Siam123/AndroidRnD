@@ -9,35 +9,50 @@
         android:orientation="vertical">
 
     <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="@dimen/_405sdp"
-            android:layout_height="@dimen/_227sdp" tools:layout_editor_absoluteY="41dp"
-            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintHorizontal_bias="1.0" android:layout_marginTop="@dimen/_20sdp">
+        android:layout_width="match_parent"
+        android:layout_height="277dp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="41dp">
 
         <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Hello World!"
-                android:id="@+id/textView" android:layout_gravity="center"/>
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Hello World!" />
+
         <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Hello World!"
-                android:id="@+id/textView2" android:layout_gravity="center" android:layout_marginTop="25dp"/>
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:text="Hello World!" />
     </LinearLayout>
+
     <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="411dp"
-            android:layout_height="464dp" tools:layout_editor_absoluteY="267dp"
-            tools:layout_editor_absoluteX="0dp">
+        android:layout_width="411dp"
+        android:layout_height="409dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="267dp">
+
         <Button
-                android:text="@string/button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/button" android:layout_weight="1"/>
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Registration" />
+
         <Button
-                android:text="@string/next_page"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/button2" android:layout_weight="1"/>
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Login" />
     </LinearLayout>
 </LinearLayout>
